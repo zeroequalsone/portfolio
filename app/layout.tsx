@@ -2,8 +2,8 @@ import type { Metadata } from "next";
 import "./globals.css";
 
 export const metadata: Metadata = {
-  title: "Sebastian Götze. Frontend Web Developer",
-  description: "Sebastian Götze. Frontend Web Developer Portfolio",
+  title: "Sebastian Götze • Junior Frontend Web Developer",
+  description: "Sebastian Götze • Frontend Web Developer Portfolio",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
