@@ -3,7 +3,6 @@
 :root {
   --orbit-badge: #155dfc;
   --orbit-background: #0a0a0c;
-  --orbit-image: #171717;
   --orbit-shadow: #262626;
   --orbit-border: #404040;
   --orbit-title: #a1a1a1;
@@ -19,7 +18,6 @@
 @theme inline {
   --color-orbit-badge: var(--orbit-badge);
   --color-orbit-background: var(--orbit-background);
-  --color-orbit-image: var(--orbit-image);
   --color-orbit-shadow: var(--orbit-shadow);
   --color-orbit-border: var(--orbit-border);
   --color-orbit-title: var(--orbit-title);
