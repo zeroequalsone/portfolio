@@ -3,27 +3,29 @@
 :root {
   --orbit-badge: #155dfc;
   --orbit-background: #0a0a0c;
-  --orbit-image: #171717;
   --orbit-shadow: #262626;
   --orbit-border: #404040;
+  --orbit-title: #a1a1a1;
 
   --linkbloom-badge: #617a58;
   --linkbloom-background: #fefae0;
   --linkbloom-background-2: #dce6ce;
   --linkbloom-shadow: #2b3a27;
   --linkbloom-border: #486242;
+  --linkbloom-title: #582f0e;
 }
 
 @theme inline {
   --color-orbit-badge: var(--orbit-badge);
   --color-orbit-background: var(--orbit-background);
-  --color-orbit-image: var(--orbit-image);
   --color-orbit-shadow: var(--orbit-shadow);
   --color-orbit-border: var(--orbit-border);
+  --color-orbit-title: var(--orbit-title);
 
   --color-linkbloom-badge: var(--linkbloom-badge);
   --color-linkbloom-background: var(--linkbloom-background);
   --color-linkbloom-background-2: var(--linkbloom-background-2);
   --color-linkbloom-shadow: var(--linkbloom-shadow);
   --color-linkbloom-border: var(--linkbloom-border);
+  --color-linkbloom-title: var(--linkbloom-title);
 }
