@@ -4,7 +4,7 @@ import ProjectVisual from "./ProjectVisual";
 
 export default function Work() {
   return (
-    <section id="work">
+    <section id="work" className="scroll-mt-12">
       {/* Section Header */}
       <div className="px-4 py-6 md:px-12 bg-black text-white">
         <h2 className="text-3xl md:text-5xl font-black uppercase tracking-tighter">

@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="flex flex-col justify-center px-4 py-12 md:px-12 md:py-24"
+      className="flex flex-col justify-center px-4 py-12 md:px-12 md:py-24 scroll-mt-16"
     >
       <header className="mb-12 flex justify-between items-end border-b-2 border-black pb-4">
         <p className="font-mono text-sm uppercase tracking-widest">Index_01</p>
