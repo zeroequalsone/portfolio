@@ -1,5 +1,6 @@
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
+import Stack from "@/components/Stack";
 import Work from "@/components/Work";
 
 export default function Home() {
@@ -9,6 +10,7 @@ export default function Home() {
       <main>
         <Hero />
         <Work />
+        <Stack />
       </main>
     </>
   );
