@@ -1,3 +1,4 @@
+import Contact from "@/components/Contact";
 import Hero from "@/components/Hero";
 import Navbar from "@/components/Navbar";
 import Stack from "@/components/Stack";
@@ -11,6 +12,7 @@ export default function Home() {
         <Hero />
         <Work />
         <Stack />
+        <Contact />
       </main>
     </>
   );
