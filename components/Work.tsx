@@ -57,7 +57,7 @@ export default function Work() {
         <ProjectVisual
           variant="orbit"
           href="https://orbit-two-sigma.vercel.app/"
-          imageSrc="orbit-screenshot.png"
+          imageSrc="orbit-screenshot.webp"
           imageAlt="Vorschau der Orbit Astronomie Web-App"
           title="Orbit"
           priority={true}
@@ -70,7 +70,7 @@ export default function Work() {
         <ProjectVisual
           variant="linkbloom"
           href="https://linkbloom-two.vercel.app/"
-          imageSrc="linkbloom-screenshot.png"
+          imageSrc="linkbloom-screenshot.webp"
           imageAlt="Vorschau des Linkbloom Dashboards"
           title="Linkbloom"
         />
