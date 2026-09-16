@@ -33,17 +33,21 @@ export default function WorkButtons({ variant }: Props) {
         href={links.live}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label={`Live Demo für ${variant}`}
         className={`flex-1 border-2 px-4 py-3 flex justify-between items-center hover:-translate-y-1 hover:-translate-x-1 hover:bg-white transition-all active:translate-x-0 active:translate-y-0 active:shadow-none ${style}`}
       >
-        Live App <LuArrowUpRight size={18} />
+        <span>Live App</span>
+        <LuArrowUpRight size={18} aria-hidden="true" />
       </Link>
       <Link
         href={links.github}
         target="_blank"
         rel="noopener noreferrer"
+        aria-label={`GitHub Source Code für ${variant}`}
         className={`flex-1 border-2 px-4 py-3 flex justify-between items-center hover:-translate-y-1 hover:-translate-x-1 hover:bg-white transition-all active:translate-x-0 active:translate-y-0 active:shadow-none ${style}`}
       >
-        Source Code <LuGithub size={18} />
+        <span>Source Code</span>
+        <LuGithub size={18} aria-hidden="true" />
       </Link>
     </div>
   );
