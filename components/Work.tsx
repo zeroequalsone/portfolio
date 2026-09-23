@@ -28,24 +28,17 @@ export default function Work() {
               <WorkStep
                 variant="orbit"
                 step="01. Das Problem"
-                description="Wissenschaftliche Daten zur Astronomie (z.B. von NASA APIs)
-                  sind oft in trockenen, schwer navigierbaren Datenbanken
-                  versteckt. Es fehlte eine Plattform, die komplexe Parameter
-                  visuell und interaktiv aufbereitet."
+                description="Bestehende Astronomie-Plattformen wirken oft technisch-trocken und visuell wenig einladend. Es fehlte eine Umsetzung, die wissenschaftliche Daten in ein stimmiges, dem Thema angemessenes Design einbettet."
               />
               <WorkStep
                 variant="orbit"
                 step="02. Die Lösung"
-                description="Entwicklung einer interaktiven Web-App, die Live-Daten (NASA
-                  APOD) mit einer tiefgehenden Planetendatenbank verknüpft.
-                  Features umfassen dynamische Daten-Renderings basierend auf
-                  Nutzer-Auswahl und interaktive Tools."
+                description="Eine interaktive Web-App mit zwei Kernbereichen: tagesaktuelle Live-Daten der NASA (Astronomy Picture of the Day) sowie eine selbst zusammengestellte, umfangreiche Datenstruktur zu den Objekten unseres Sonnensystems. Features umfassen dynamische Daten-Renderings basierend auf Nutzer-Auswahl und interaktive Tools."
               />
               <WorkStep
                 variant="orbit"
                 step="03. Tech-Fokus"
-                description="API-Integration (NASA), Complex State Management, Responsive
-                  UI/UX Design für hohe Informationsdichte."
+                description="API-Integration mit eigener Caching-Strategie (NASA APOD), umfangreiche selbst kuratierte TypeScript-Datensätze, Responsive UI/UX Design für hohe Informationsdichte."
               />
             </div>
           </div>
@@ -79,7 +72,7 @@ export default function Work() {
         <div className="p-6 md:p-12 flex flex-col justify-between">
           <div>
             <div className="font-mono text-xs uppercase mb-4 tracking-widest bg-linkbloom-badge text-white w-fit px-2 py-1">
-              2026 // SaaS & Auth-Flow
+              2026 // Fullstack & Auth-Flow
             </div>
             <h3 className="text-4xl md:text-6xl font-black uppercase mb-8 text-linkbloom-shadow">
               Linkbloom
@@ -89,24 +82,17 @@ export default function Work() {
               <WorkStep
                 variant="linkbloom"
                 step="01. Das Problem"
-                description='Die meisten "Link-in-Bio"-Tools bieten im kostenlosen Tier zu
-                  wenig Personalisierung. Zudem ist der Verwaltungsbereich
-                  (Dashboard) für technisch unerfahrene Nutzer oft überladen und
-                  verwirrend.'
+                description="Ich wollte über reine Frontend-Projekte hinausgehen und ein fullstack Produkt mit echter Datenbank und Authentifizierung bauen. Gleichzeitig war mir wichtig: Anpassung sollte nicht hinter einer Bezahlschranke stecken, wie es bei vielen Link-in-Bio-Tools üblich ist."
               />
               <WorkStep
                 variant="linkbloom"
                 step="02. Die Lösung"
-                description='Ein fokussiertes Dashboard mit nahtlosem
-                  Authentifizierungs-Flow. Der Kern ist eine
-                  "Live-Preview"-Architektur: Änderungen an Design oder Links
-                  werden sofort visualisiert.'
+                description="Ein fokussiertes Dashboard mit vollständigem Authentifizierungs-Flow über Supabase. Design, Themes und Links lassen sich frei anpassen — komplett im kostenlosen Tier, ohne Premium-Wand. Änderungen werden sofort gespeichert und sind beim Aufruf der öffentlichen Profilseite live sichtbar."
               />
               <WorkStep
                 variant="linkbloom"
                 step="03. Tech-Fokus"
-                description="User Authentication (JWT/Session), Global State Management,
-                  Form Validation, CRUD-Operationen."
+                description="User Authentication (Supabase Auth), State-Handling mit React Hooks, Form Validation, CRUD-Operationen"
               />
             </div>
           </div>
