@@ -14,6 +14,7 @@ const STACK_CATEGORIES: Category[] = [
     title: "Frameworks & Libraries",
     items: ["React", "Next.js (App Router)", "Tailwind CSS"],
   },
+  { title: "Backend & Datenbank", items: ["Supabase"] },
   {
     title: "Tooling & Workflow",
     items: ["Git / GitHub", "Vercel", "Figma"],
@@ -29,7 +30,7 @@ export default function Stack() {
         </h2>
       </div>
 
-      <div className="grid grid-cols-1 md:grid-cols-3 divide-y-2 md:divide-y-0 md:divide-x-2 divide-black">
+      <div className="grid grid-cols-1 md:grid-cols-4 divide-y-2 md:divide-y-0 md:divide-x-2 divide-black">
         {STACK_CATEGORIES.map((category) => (
           <StackCategory
             key={category.title}
