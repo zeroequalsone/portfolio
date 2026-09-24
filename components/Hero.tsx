@@ -1,4 +1,9 @@
+"use client";
+import { useState } from "react";
+
 export default function Hero() {
+  const [isLoveHovered, setIsLoveHovered] = useState(false);
+
   return (
     <section
       id="hero"
@@ -31,9 +36,18 @@ export default function Hero() {
         {/* Kurzbeschreibung & Tech-Stack Box */}
         <div className="lg:col-span-4 flex flex-col gap-6 lg:pb-2">
           <p className="text-lg md:text-xl font-medium leading-relaxed">
-            Ich liebe Frontend — Details, die man erst merkt, wenn sie fehlen,
-            Interfaces, die sich von selbst erklären, und am Ende eine UI/UX,
-            bei der man nicht nachdenken muss.
+            Ich{" "}
+            <span
+              className="bg-black text-white inline-flex justify-center py-1 w-16 cursor-default hover:bg-white hover:text-black active:bg-white active:text-black"
+              onMouseEnter={() => setIsLoveHovered(true)}
+              onMouseLeave={() => setIsLoveHovered(false)}
+              onClick={() => setIsLoveHovered((prev) => !prev)}
+            >
+              {isLoveHovered ? "lebe" : "liebe"}
+            </span>{" "}
+            Frontend — Details, die man erst merkt, wenn sie fehlen, Interfaces,
+            die sich von selbst erklären, und am Ende eine UI/UX, bei der man
+            nicht nachdenken muss.
           </p>
 
           <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-neutral-50 flex flex-col gap-2">
