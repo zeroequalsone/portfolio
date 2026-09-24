@@ -1,6 +1,18 @@
 "use client";
 import { useState } from "react";
 
+type Category = {
+  title: string;
+  items: string;
+};
+
+const STACK_CATEGORIES: Category[] = [
+  { title: "Core Stack", items: "React / Next.js / TS" },
+  { title: "Styling", items: "TailwindCSS" },
+  { title: "Backend", items: "Supabase" },
+  { title: "Base", items: "Germany (Remote)" },
+];
+
 export default function Hero() {
   const [isLoveHovered, setIsLoveHovered] = useState(false);
 
@@ -50,19 +62,16 @@ export default function Hero() {
             nicht nachdenken muss.
           </p>
 
-          <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-neutral-50 flex flex-col gap-2">
-            <div className="flex justify-between border-b border-neutral-300 pb-2">
-              <span className="font-bold">Core Stack</span>
-              <span className="text-right">React / Next.js / TS</span>
-            </div>
-            <div className="flex justify-between border-b border-neutral-300 pb-2">
-              <span className="font-bold">Styling</span>
-              <span>TailwindCSS</span>
-            </div>
-            <div className="flex justify-between">
-              <span className="font-bold">Base</span>
-              <span>Germany (Remote)</span>
-            </div>
+          <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-2 divide-y divide-neutral-300">
+            {STACK_CATEGORIES.map((category) => (
+              <div
+                key={category.title}
+                className="flex justify-between pb-2 last:pb-0"
+              >
+                <span className="font-bold">{category.title}</span>
+                <span className="text-right">{category.items}</span>
+              </div>
+            ))}
           </div>
         </div>
       </div>
