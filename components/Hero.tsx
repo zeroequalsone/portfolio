@@ -24,16 +24,16 @@ export default function Hero() {
           </h1>
           <div className="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight flex items-center gap-4">
             <span className="w-12 h-1 bg-black hidden sm:block" />
-            Junior Frontend Web Developer
+            22, Junior Frontend Web Developer
           </div>
         </div>
 
         {/* Kurzbeschreibung & Tech-Stack Box */}
         <div className="lg:col-span-4 flex flex-col gap-6 lg:pb-2">
           <p className="text-lg md:text-xl font-medium leading-relaxed">
-            Ich übersetze komplexe Daten und Logik in intuitive, moderne
-            Web-Interfaces. Als Frontend Developer baue ich Applikationen von
-            der API-Anbindung bis zum interaktiven Dashboard.
+            Ich liebe Frontend — Details, die man erst merkt, wenn sie fehlen,
+            Interfaces, die sich von selbst erklären, und am Ende eine UI/UX,
+            bei der man nicht nachdenken muss.
           </p>
 
           <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] bg-neutral-50 flex flex-col gap-2">

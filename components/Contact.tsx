@@ -13,7 +13,7 @@ export default function Contact() {
         </h2>
 
         <a
-          href="mailto:hi@sgoetze.de"
+          href="mailto:goetze.seb@gmail.com"
           className="text-5xl md:text-8xl lg:text-[10rem] font-black uppercase tracking-tighter mb-8 leading-[0.85] block hover:text-neutral-300 w-fit"
         >
           Let's Talk!
