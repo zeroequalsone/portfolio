@@ -5,10 +5,10 @@ import { useState } from "react";
 import NavbarLink from "./NavbarLink";
 
 const NAV_ITEMS = [
-  { title: "hero", href: "#hero" },
-  { title: "work", href: "#work" },
-  { title: "stack", href: "#stack" },
-  { title: "contact", href: "#contact" },
+  { title: "hero", href: "/#hero" },
+  { title: "work", href: "/#work" },
+  { title: "stack", href: "/#stack" },
+  { title: "contact", href: "/#contact" },
 ];
 
 export default function Navbar() {
