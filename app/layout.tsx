@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Navbar from "@/components/Navbar";
 
 export const metadata: Metadata = {
   title: "Sebastian Götze • Junior Frontend Web Developer",
@@ -20,7 +21,8 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
   return (
     <html lang="en" className={`h-full antialiased`}>
       <body className="min-h-full flex flex-col" suppressHydrationWarning>
-        {children}
+        <Navbar />
+        <main>{children}</main>
       </body>
     </html>
   );
