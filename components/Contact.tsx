@@ -1,5 +1,6 @@
 import { LuGithub, LuLinkedin } from "react-icons/lu";
 import ContactButton from "./ContactButton";
+import CopyEmailLink from "./CopyEmailLink";
 
 export default function Contact() {
   return (
@@ -12,12 +13,7 @@ export default function Contact() {
           Index_04 // Connect
         </h2>
 
-        <a
-          href="mailto:goetze.seb@gmail.com"
-          className="text-5xl md:text-8xl lg:text-[10rem] font-black uppercase tracking-tighter mb-8 leading-[0.85] block hover:text-neutral-300 w-fit"
-        >
-          Let's Talk!
-        </a>
+        <CopyEmailLink />
       </div>
 
       <div className="flex flex-col md:flex-row justify-between gap-8 border-t-2 pt-8">
