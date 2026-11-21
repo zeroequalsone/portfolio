@@ -7,10 +7,12 @@ type Props = {
 
 const PROJECT_LINKS = {
   orbit: {
+    name: "Orbit",
     live: "https://orbit-two-sigma.vercel.app/",
     github: "https://github.com/zeroequalsone/orbit/",
   },
   linkbloom: {
+    name: "Linkbloom",
     live: "https://linkbloom-two.vercel.app/",
     github: "https://github.com/zeroequalsone/linkbloom/",
   },
@@ -33,7 +35,7 @@ export default function WorkButtons({ variant }: Props) {
         href={links.live}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={`Live Demo für ${variant}`}
+        aria-label={`Live Demo für ${links.name}`}
         className={`flex-1 border-2 px-4 py-3 flex justify-between items-center hover:-translate-y-1 hover:-translate-x-1 hover:bg-white transition-all active:translate-x-0 active:translate-y-0 active:shadow-none ${style}`}
       >
         <span>Live App</span>
@@ -43,7 +45,7 @@ export default function WorkButtons({ variant }: Props) {
         href={links.github}
         target="_blank"
         rel="noopener noreferrer"
-        aria-label={`GitHub Source Code für ${variant}`}
+        aria-label={`GitHub Source Code für ${links.name}`}
         className={`flex-1 border-2 px-4 py-3 flex justify-between items-center hover:-translate-y-1 hover:-translate-x-1 hover:bg-white transition-all active:translate-x-0 active:translate-y-0 active:shadow-none ${style}`}
       >
         <span>Source Code</span>
