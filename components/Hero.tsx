@@ -49,14 +49,15 @@ export default function Hero() {
         <div className="lg:col-span-4 flex flex-col gap-6 lg:pb-2">
           <p className="text-lg md:text-xl font-medium leading-relaxed">
             Ich{" "}
-            <span
+            <button
+              type="button"
               className="bg-black text-white inline-flex justify-center py-1 w-16 cursor-default hover:bg-white hover:text-black active:bg-white active:text-black"
               onMouseEnter={() => setIsLoveHovered(true)}
               onMouseLeave={() => setIsLoveHovered(false)}
               onClick={() => setIsLoveHovered((prev) => !prev)}
             >
               {isLoveHovered ? "lebe" : "liebe"}
-            </span>{" "}
+            </button>{" "}
             Frontend — Details, die man erst merkt, wenn sie fehlen, Interfaces,
             die sich von selbst erklären, und am Ende eine UI/UX, bei der man
             nicht nachdenken muss.
