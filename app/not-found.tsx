@@ -13,7 +13,6 @@ export default function NotFound() {
         <p className="font-mono text-sm uppercase tracking-widest">Index_00</p>
         <div
           className="font-mono text-sm uppercase tracking-widest flex items-center gap-2"
-          aria-label="Status: Page not found"
         >
           <span>Status</span>
           <span className="size-3 rounded-full border border-black" />
@@ -41,7 +40,6 @@ export default function NotFound() {
         </p>
         <Link
           href={"/"}
-          aria-label={`Back to home`}
           className={`border-2 px-4 py-3 flex justify-between items-center hover:-translate-y-1 hover:-translate-x-1 hover:bg-white transition-all active:translate-x-0 active:translate-y-0 active:shadow-none border-orbit-border shadow-[4px_4px_0px_0px_var(--color-orbit-shadow)] hover:shadow-[6px_6px_0px_0px_var(--color-orbit-shadow)] hover:text-black font-mono text-sm uppercase font-bold w-full`}
         >
           <span>Back to home</span>
