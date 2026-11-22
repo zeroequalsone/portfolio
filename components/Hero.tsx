@@ -6,7 +6,7 @@ type Category = {
   items: string;
 };
 
-const STACK_CATEGORIES: Category[] = [
+const HERO_STACK: Category[] = [
   { title: "Core Stack", items: "React / Next.js / TS" },
   { title: "Styling", items: "TailwindCSS" },
   { title: "Backend", items: "Supabase" },
@@ -64,7 +64,7 @@ export default function Hero() {
           </p>
 
           <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-2 divide-y divide-neutral-300">
-            {STACK_CATEGORIES.map((category) => (
+            {HERO_STACK.map((category) => (
               <div
                 key={category.title}
                 className="flex justify-between pb-2 last:pb-0"
