@@ -1,16 +1,23 @@
 "use client";
 import Link from "next/link";
-import { useState } from "react";
+import { useEffect, useState } from "react";
 
 export default function CopyEmailLink() {
   const email = "goetze.seb@gmail.com";
   const [copied, setCopied] = useState(false);
 
+  useEffect(() => {
+    if (!copied) return;
+    const timeout = setTimeout(() => setCopied(false), 2000);
+    return () => clearTimeout(timeout);
+  }, [copied]);
+
   function handleClick() {
     if (copied) return;
-    navigator.clipboard?.writeText(email).catch(() => {});
+    navigator.clipboard?.writeText(email).catch(() => {
+      // Copy is optional, mailto: still opens
+    });
     setCopied(true);
-    setTimeout(() => setCopied(false), 2000);
   }
 
   return (
