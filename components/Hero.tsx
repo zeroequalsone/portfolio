@@ -25,7 +25,6 @@ export default function Hero() {
         <p className="font-mono text-sm uppercase tracking-widest">Index_01</p>
         <div
           className="font-mono text-sm uppercase tracking-widest flex items-center gap-2"
-          aria-label="Status: Available for hire"
         >
           <span>Status</span>
           <span className="size-3 bg-green-500 rounded-full animate-pulse border border-black" />
