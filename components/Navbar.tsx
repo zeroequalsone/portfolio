@@ -21,7 +21,7 @@ export default function Navbar() {
       <div className="flex justify-between items-center px-4 py-3 lg:px-8">
         <div className="flex items-center lg:flex-1 gap-4 font-black text-xl uppercase tracking-tighter">
           <Link href={"/"}>Sebastian_Götze</Link>
-          <Link
+          <a
             // cv ändern
             href={"/cv.pdf"}
             target="_blank"
@@ -29,7 +29,7 @@ export default function Navbar() {
             className="font-mono text-xs font-bold uppercase border-2 border-black hover:bg-black hover:text-white px-3 py-1 shadow-[2px_2px_0px_0px_rgba(0,0,0,1)] cursor-pointer"
           >
             Open CV
-          </Link>
+          </a>
         </div>
 
         {/* Desktop Navigation */}
