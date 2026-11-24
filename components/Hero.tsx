@@ -21,13 +21,12 @@ export default function Hero() {
       className="flex flex-col justify-center px-4 py-12 md:px-12 md:py-24 scroll-mt-16"
     >
       <header className="mb-12 flex justify-between items-end border-b-2 border-black pb-4">
-        <p className="font-mono text-sm uppercase tracking-widest">Index_01</p>
-        <div
-          className="font-mono text-sm uppercase tracking-widest flex items-center gap-2"
-        >
-          <span>Status</span>
-          <span className="size-3 bg-green-500 rounded-full animate-pulse border border-black" />
-          <span>Available</span>
+        <p className="font-mono text-sm uppercase tracking-widest">
+          Index_01 // Intro
+        </p>
+        <div className="font-mono text-sm uppercase tracking-widest flex items-center gap-2">
+          <span className="size-2 bg-green-500 rounded-full animate-pulse motion-reduce:animate-none border border-black" />
+          <span>Open to work · Remote</span>
         </div>
       </header>
 
