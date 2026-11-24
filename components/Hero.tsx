@@ -38,7 +38,7 @@ export default function Hero() {
           </h1>
           <div className="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight flex items-center gap-4">
             <span className="w-12 h-1 bg-black hidden sm:block" />
-            22, Junior Frontend Web Developer, Germany
+            22, Junior Frontend Web Developer, Germany (Remote only)
           </div>
         </div>
 
