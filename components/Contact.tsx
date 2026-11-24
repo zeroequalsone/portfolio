@@ -18,8 +18,7 @@ export default function Contact() {
 
       <div className="flex flex-col md:flex-row justify-between gap-8 border-t-2 pt-8">
         <p className="font-mono text-sm uppercase font-bold max-w-sm">
-          Junior Frontend Developer // Suche ab sofort nach einer neuen
-          Herausforderung (100% Remote). Bereit, Code zu shippen.
+          Junior Frontend Developer // Ich suche meine erste Stelle im Team. Live-Demos und Code findest du oben und auf GitHub.
         </p>
 
         <div className="flex gap-4">
