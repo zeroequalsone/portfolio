@@ -10,7 +10,6 @@ const HERO_STACK: Category[] = [
   { title: "Core Stack", items: "React / Next.js / TS" },
   { title: "Styling", items: "TailwindCSS" },
   { title: "Backend", items: "Supabase" },
-  { title: "Base", items: "Germany (Remote)" },
 ];
 
 export default function Hero() {
@@ -40,7 +39,7 @@ export default function Hero() {
           </h1>
           <div className="text-xl sm:text-2xl md:text-3xl font-bold uppercase tracking-tight flex items-center gap-4">
             <span className="w-12 h-1 bg-black hidden sm:block" />
-            22, Junior Frontend Web Developer
+            22, Junior Frontend Web Developer, Germany
           </div>
         </div>
 
@@ -57,9 +56,8 @@ export default function Hero() {
             >
               {isLoveHovered ? "lebe" : "liebe"}
             </button>{" "}
-            Frontend — Details, die man erst merkt, wenn sie fehlen, Interfaces,
-            die sich von selbst erklären, und am Ende eine UI/UX, bei der man
-            nicht nachdenken muss.
+            Frontend — Details, die man erst merkt, wenn sie fehlen, und Interfaces, die
+            sich von selbst erklären.
           </p>
 
           <div className="font-mono text-xs sm:text-sm uppercase p-5 border-2 border-black shadow-[4px_4px_0px_0px_rgba(0,0,0,1)] flex flex-col gap-2 divide-y divide-neutral-300">
