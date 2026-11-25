@@ -33,12 +33,12 @@ export default function Work() {
               <WorkStep
                 variant="orbit"
                 step="02. Die Lösung"
-                description="Eine interaktive Web-App mit zwei Kernbereichen: tagesaktuelle Live-Daten der NASA (Astronomy Picture of the Day) sowie eine selbst zusammengestellte, umfangreiche Datenstruktur zu den Objekten unseres Sonnensystems. Features umfassen dynamische Daten-Renderings basierend auf Nutzer-Auswahl und interaktive Tools."
+                description="Eine interaktive Web-App mit zwei Kernbereichen: tagesaktuelle Live-Daten der NASA (Astronomy Picture of the Day, APOD) sowie eine selbst zusammengestellte Datenstruktur zu den Objekten unseres Sonnensystems. Dazu gibt es vier Tools: Gewichts-, Distanz- und Größen-Rechner sowie einen Landsat-Name-Generator mit PNG-Export."
               />
               <WorkStep
                 variant="orbit"
                 step="03. Tech-Fokus"
-                description="API-Integration mit eigener Caching-Strategie (NASA APOD), umfangreiche selbst kuratierte TypeScript-Datensätze, Responsive UI/UX Design für hohe Informationsdichte."
+                description="API-Integration (NASA APOD) mit serverseitigem Caching und stündlicher Revalidierung, Canvas-Rendering einer interaktiven Himmelskarte mit 88 Sternbildern, selbst kuratierte TypeScript-Datensätze, Unit-Tests mit Vitest und CI mit GitHub Actions."
               />
             </div>
           </div>
