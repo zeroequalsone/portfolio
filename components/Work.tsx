@@ -82,17 +82,17 @@ export default function Work() {
               <WorkStep
                 variant="linkbloom"
                 step="01. Das Problem"
-                description="Ich wollte über reine Frontend-Projekte hinausgehen und ein fullstack Produkt mit echter Datenbank und Authentifizierung bauen. Gleichzeitig war mir wichtig: Anpassung sollte nicht hinter einer Bezahlschranke stecken, wie es bei vielen Link-in-Bio-Tools üblich ist."
+                description="Ich wollte über reine Frontend-Projekte hinausgehen und ein Fullstack-Produkt mit echter Datenbank und Authentifizierung bauen. Gleichzeitig war mir wichtig: Anpassung sollte nicht hinter einer Paywall stecken, wie es bei vielen Link-in-Bio-Tools üblich ist."
               />
               <WorkStep
                 variant="linkbloom"
                 step="02. Die Lösung"
-                description="Ein fokussiertes Dashboard mit vollständigem Authentifizierungs-Flow über Supabase. Design, Themes und Links lassen sich frei anpassen — komplett im kostenlosen Tier, ohne Premium-Wand. Änderungen werden sofort gespeichert und sind beim Aufruf der öffentlichen Profilseite live sichtbar."
+                description="Ein Dashboard mit vollständigem Authentifizierungs-Flow über Supabase. Design, Themes und Links lassen sich frei anpassen, ohne Paywall. Gespeicherte Änderungen sind auf der öffentlichen Profilseite sofort sichtbar."
               />
               <WorkStep
                 variant="linkbloom"
                 step="03. Tech-Fokus"
-                description="User Authentication (Supabase Auth), State-Handling mit React Hooks, Form Validation, CRUD-Operationen"
+                description="User Authentication (Supabase Auth), Row Level Security, CRUD-Operationen, Form Validation und State-Handling mit React Hooks."
               />
             </div>
           </div>
