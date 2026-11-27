@@ -8,16 +8,25 @@ type Category = {
 const STACK_CATEGORIES: Category[] = [
   {
     title: "Core",
-    items: ["JavaScript", "TypeScript", "HTML (Semantic)", "CSS"],
+    items: ["Semantic HTML", "CSS", "JavaScript", "TypeScript"],
   },
   {
     title: "Frameworks & Libraries",
-    items: ["React", "Next.js (App Router)", "Tailwind CSS"],
+    items: ["React", "Next.js (App Router)", "Tailwind CSS", "Radix UI"],
   },
-  { title: "Backend & Datenbank", items: ["Supabase"] },
+  {
+    title: "Backend & Database",
+    items: ["Supabase (Auth)", "PostgreSQL (Row Level Security)"],
+  },
   {
     title: "Tooling & Workflow",
-    items: ["Git / GitHub", "Vercel", "Figma"],
+    items: [
+      "Git & GitHub",
+      "GitHub Actions (CI)",
+      "Vitest (Unit Tests)",
+      "Vercel",
+      "Figma",
+    ],
   },
 ];
 
